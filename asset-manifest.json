@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/studio-asa/static/css/main.5d7eb549.css",
-    "main.js": "/studio-asa/static/js/main.e4b6a767.js",
+    "main.css": "/studio-asa/static/css/main.0c3f5ac2.css",
+    "main.js": "/studio-asa/static/js/main.b416050a.js",
     "static/js/787.c637228d.chunk.js": "/studio-asa/static/js/787.c637228d.chunk.js",
     "static/media/clientImg.svg": "/studio-asa/static/media/clientImg.235352d593258d4e13f7fdd1baa7e802.svg",
     "static/media/landing-img.svg": "/studio-asa/static/media/landing-img.790e2639c5a45611eed00b8cabb94bd8.svg",
     "static/media/services-bg-img1.svg": "/studio-asa/static/media/services-bg-img1.2b6a3225c701b3fed95ca6220007f80e.svg",
     "static/media/seemore.svg": "/studio-asa/static/media/seemore.bd7ff207a9116fc6563dbaabaa97efae.svg",
+    "static/media/company.svg": "/studio-asa/static/media/company.27602049d004e612a005fdbfcaf7bc3f.svg",
+    "static/media/iconv2.svg": "/studio-asa/static/media/iconv2.91b4c65d87b11a2d9ddf4ffc37116b01.svg",
     "static/media/logo.svg": "/studio-asa/static/media/logo.1a0f679b9452d5b7615aeca8982e36d5.svg",
+    "static/media/instagram.svg": "/studio-asa/static/media/instagram.972d6a4695aba9c75731ca82aeee75be.svg",
+    "static/media/twitter.svg": "/studio-asa/static/media/twitter.25bdc360ed15911ff9f193a7136f3f0c.svg",
+    "static/media/youtube.svg": "/studio-asa/static/media/youtube.20799a3de7c2fd30031693fb373def2c.svg",
     "index.html": "/studio-asa/index.html",
+    "static/media/left_arr.svg": "/studio-asa/static/media/left_arr.c892884deb4bd8d9b0aa2f72744aeac8.svg",
+    "static/media/right_arr.svg": "/studio-asa/static/media/right_arr.f88e95559f3a57d4010e9964eed3c57c.svg",
+    "static/media/facebook.svg": "/studio-asa/static/media/facebook.7eebe9fada58f22f61441f4015a07eed.svg",
     "static/media/ornament2.svg": "/studio-asa/static/media/ornament2.9cdafd677de60b4e8512524b03b94480.svg",
     "static/media/ellipsis.svg": "/studio-asa/static/media/ellipsis.ad4ecd38e4276744750b7393d33d5123.svg",
     "static/media/arrowBtn.svg": "/studio-asa/static/media/arrowBtn.eb299bdabfb50726ac8602db2f620356.svg",
-    "main.5d7eb549.css.map": "/studio-asa/static/css/main.5d7eb549.css.map",
-    "main.e4b6a767.js.map": "/studio-asa/static/js/main.e4b6a767.js.map",
+    "main.0c3f5ac2.css.map": "/studio-asa/static/css/main.0c3f5ac2.css.map",
+    "main.b416050a.js.map": "/studio-asa/static/js/main.b416050a.js.map",
     "787.c637228d.chunk.js.map": "/studio-asa/static/js/787.c637228d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d7eb549.css",
-    "static/js/main.e4b6a767.js"
+    "static/css/main.0c3f5ac2.css",
+    "static/js/main.b416050a.js"
   ]
 }

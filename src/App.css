@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin-left: 0;
+  margin-top: 0;
+  width: 231px;
+  height: 48px;
+}
+
+
+.Hero-Section-Heading {
+  margin-top: 177px;
+}
+
+.Ellipsis {
+  width: 750px;
+
+}
+
+.bg-color-scrolled {
+  background-color: #042B20;
+  color: white;
+}
+
+.Learn-more-btn {
+  width: 246px;
+  height: 76px;
+  padding: 20px 60px 20px 60px;
+  border-radius: 80px;
+  border: 1px solid #B9B9B9;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+
+.Hero-Section-subHeading {
+  margin-top: 32px;
+  width: 459px ;
+}
+
+.Main-Menu {
+  top: 20px;
+  margin-top: -150px;
+  display: flex;
+  flex-direction: row;
+  z-index: 100;
+  width: fit-content;
+  padding: 14px 18px;
+  align-items: flex-start;
+  border-radius: 70px;
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+}
+
+@keyframes moveLeftToRight {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-50%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes moveRightToLeft {
+  0% { transform: translateX(-50%); }
+  50% { transform: translateX(0); }
+  100% { transform: translateX(0); }
+}
+
+
+.Carousal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+
+.Carousal-row {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  will-change: transform;
+
+}
+
+.Carousal-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  height: 300px;
+  border-radius: 24px;
+  background: #114F3D;
+  margin: 42px;
+  box-sizing: border-box;
+}
+
+.see-more-image {
+  position: absolute;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.Carousal-item:hover .see-more-image {
+  display: block;
+  opacity: 1;
+}
+
+.Carousal-item:hover {
+  cursor: pointer;
+}
+
+
+
+.Carousal .Carousal-row:first-child {
+  animation: moveLeftToRight 10s linear infinite;
+}
+
+.Carousal .Carousal-row:last-child {
+  animation: moveRightToLeft 10s linear infinite;
+}
+
+.Carousal .Carousal-row {
+  animation-play-state: running; /* Ensure animation is running by default */
+}
+
+.Carousal .Carousal-row:hover {
+  animation-play-state: paused; /* Pause animation on hover */
+}
+
+
+
+  .Services-Item {
+  border-top: 1px solid #114F3D ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 100px;
+}
+
+  .Main-menu-item {
+    border-radius: 52px;
+    z-index: 10;
+    display: flex;
+    padding: 12px 21px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+
+  .Contact {
+    position: relative;
+    padding-left: 94px;
+    padding-right: 94px;
+    padding-top: 94px;
+    padding-bottom: 10px;
+    border-radius:  120px 120px 0px 0px;
+    height: 751px;
+    margin-top: -100px;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .CopyRight {
+
+    border-top: 1px solid #78A89A80;
+    padding-top: 20px ;
+    color: #78A89A80;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .CopyRight-header {
+
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .CopyRight-item {
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+

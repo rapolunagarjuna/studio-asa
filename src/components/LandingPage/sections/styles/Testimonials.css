@@ -1,0 +1,27 @@
+.Testimonials {
+    position: relative;
+    padding: 94px;
+    min-height: 120vh;
+
+    border-radius: 120px 120px 0px 0px;
+    margin-top: -150px;
+    z-index: 20;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+
